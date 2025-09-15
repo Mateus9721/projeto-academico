@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;          
+}
+p {
+    text-align: center;
+    font-style: italic; 
+}
+.paragrafo-cinza {
+    color: gray;
+    font-size: x-small;
+}
+#p1 {
+    background-color: aquamarine;
+    font-weight: bolder;
+}
