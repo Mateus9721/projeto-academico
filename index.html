@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>CloudFlix</title>
+    <script type="text/javascript">
+        let idade = window.prompt("Digite sua idade: ");
+        idade = parseInt(idade);
+        if (idade < 18) {
+            document.write("Você é de menor. Entrada não permitida");
+        } else {
+            document.write("Ok, você é de maior. Pode entrar.");
+        }
+    </script>   
 </head>
 <body>
     <header>
          <h1>CloudFlix: O seu catálogo fictício de filmes</h1>  
+
     </header>
     <nav>
          <b>Home</b> |
@@ -43,6 +53,6 @@
         <p class="paragrafo-cinza">
             Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.
         </p>
-    </footer>
+    </footer> 
 </body>
 </html>
