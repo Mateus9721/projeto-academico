@@ -25,11 +25,11 @@ function renderizarFilmes(filmes) {
     let htmlFilmes = '';
     filmes.forEach(filme => {
         htmlFilmes += `
-<tr>
-<td><img src="${filme.imagem.src}" alt="${filme.imagem.alt}" width="70"></td>
-<td>${filme.titulo}</td>
-<td>${filme.genero}</td>
-</tr>
+    <tr>
+        <td><img src="${filme.imagem.src}" alt="${filme.imagem.alt}" width="70"></td>
+        <td>${filme.titulo}</td>
+        <td>${filme.genero}</td>
+    </tr>
 `;
     });
     tabelaCorpo.innerHTML = htmlFilmes;
