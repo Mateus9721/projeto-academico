@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>CloudFlix</title>
 </head>
-
 <body>
     <header>
         <h1>CloudFlix: O seu catálogo fictício de filmes</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a> |
-        <b>Catálogo</b> |
-        <a href="sac.html">SAC</a> |
-        <a href="equipe.html">Equipe </a> |
-        <a id="alternaTema" href="#">Alternar para Tema Escuro</a>
-    </nav>
+    <?php include 'nav.php'; ?>
     <main>
         <h2>Catálago de filmes</h2>
         <p>Procure pelo filme que deseja:</p>
@@ -31,22 +23,11 @@
                 </tr>
             </thead>
             <tbody id="corpo-tabela-filmes">
-
             </tbody>
         </table>
     </main>
-    <footer>
-        <p>
-            © 2025 CloudFlix. Todos os direitos reservados.
-        </p>
-
-        <p>
-            Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas
-            para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.
-        </p>
-    </footer>
+    <?php include 'footer.php'; ?> 
     <script src="js/catalogo.js"></script>
     <script src="js/tema.js"></script>
 </body>
-
 </html>
